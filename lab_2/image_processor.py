@@ -2,7 +2,6 @@ from PIL import Image
 from histogram import HistogramProcessor
 from segmentation import SegmentationProcessor
 
-
 class ImageProcessor:
     def __init__(self):
         self.histogram_processor = HistogramProcessor()
